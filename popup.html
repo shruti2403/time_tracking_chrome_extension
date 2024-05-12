@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <style>
+        button{
+            height: 40px;
+            width: 100px;
+            outline: none;
+        }
+
+        #timeTable
+        {
+            width: 560px;
+            border: 1px solid black;
+        }
+
+        tr:nth-child(even){background-color: white;}
+    </style>
+</head>
+<body>
+
+    <div id="timeTableDiv">
+        <table id = "timeTable">
+        </table>
+    </div>
+    <div id="errorMessage"></div>
+    <button id="btnShowTable">Load Times</button>
+    <button id="btnClearTimes">Clear Times</button>
+    <script src="popup.js"></script>
+</body>
+</html>
