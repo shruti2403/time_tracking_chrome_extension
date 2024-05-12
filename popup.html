@@ -7,15 +7,34 @@
             height: 40px;
             width: 100px;
             outline: none;
+            border-radius: 5px;
         }
 
-        #timeTable
+        #timeTable,#errorMessage
         {
             width: 560px;
-            border: 1px solid black;
+            border: 1px solid rgb(209, 13, 13);
+            /* color: aliceblue; */
+            background-color: black;
+            /* color: rgba(0, 201, 247, 0.975); */
+        }
+        #timeTableDiv,#errorMessage
+        {
+            width: 560px;
+            border: 1px solid rgb(209, 13, 13);
+            color: aliceblue;
+            background-color: black;
+            /* color: rgba(0, 201, 247, 0.975); */
         }
 
-        tr:nth-child(even){background-color: white;}
+        #btnShowTable,#btnClearTimes
+        {
+            border: 1px solid black;
+            color: rgba(0, 201, 247, 0.975);
+            background-color: black;
+        }
+
+        /* tr:nth-child(even){background-color: white;} */
     </style>
 </head>
 <body>
