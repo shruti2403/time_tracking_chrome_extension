@@ -218,7 +218,6 @@ function processTabChange(isWindowActive) {
         }
     });
 }
-
 function displayLoadedTimes(tabTimeObject) {
     // Create a table to display the loaded times
     let table = "<table border='1'><tr><th>URL</th><th>Loaded Time (seconds)</th></tr>";
@@ -226,7 +225,7 @@ function displayLoadedTimes(tabTimeObject) {
         table += "<tr>";
         table += "<td>" + url + "</td>";
         table += "<td>" + tabTimeObject[url].trackedSeconds.toFixed(2) + "</td>";
-        table += "</tr>";
+        // Omitting the first date column
     }
     table += "</table>";
     // Inject the table into the popup.html or any other suitable place
