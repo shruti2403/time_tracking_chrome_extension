@@ -13,3 +13,9 @@ Click on load times button to get the details .
 To clear the history and start the tracking from a new point, click on clear times button and load it again and the history will be clear.
 
 
+To use the extension download the code file from github in a folder
+Then go to extensions in google tab and click on load unpacked
+![image](https://github.com/shruti2403/time_tracking_chrome_extension/assets/94970502/0dd1d79d-0dba-48ff-9e93-b3c96536e857)
+
+and import this folder and pin this extension to use it.
+
